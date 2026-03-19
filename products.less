@@ -1,0 +1,57 @@
+section {
+    padding: @padding-section 0;
+}
+
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+
+.product-item img {
+    height: 64px;
+    margin-bottom: 8px;
+}
+
+.product-button {
+    display: block;
+    background-color: @mapa-cores[secundaria];
+    color: @mapa-cores[texto-light];
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin-top: 8px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: @mapa-cores[secundaria-hover];
+    }
+}
+
+// Exemplo de Escaping para media queries
+@breakpoint-desktop: ~"screen and (max-width: 1023px)";
+@breakpoint-mobile: ~"screen and (max-width: 767px)";
+
+@media @breakpoint-desktop {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+@media @breakpoint-mobile {
+    .products {
+        display: block;
+    }
+
+    .product-item {
+        margin-bottom: 32px;
+    }
+}
