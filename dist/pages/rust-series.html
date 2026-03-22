@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série: Rust Systems | CS+</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header class="header header--dark" id="header">
+        <div class="header__container">
+            <a href="../index.html" style="text-decoration: none;"><h1 class="header__logo">CS<span>+</span></h1></a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="../index.html#series">Disciplinas</a></li>
+                    <li><a href="../index.html#popular">Populares</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <section class="series-view" id="rust-series">
+            <div class="series-view__header">
+                <img src="../images/posters/rust.png" alt="Rust Poster" class="series-view__poster">
+                <div class="series-view__info">
+                    <div class="meta">100% Relevante <span>2026</span> <span>6 Partes</span> <span>4K Ultra HD</span></div>
+                    <h2>Rust Systems: Segurança e Performance</h2>
+                    <p class="synopsis">
+                        Domine a linguagem que está redefinindo a programação de sistemas. Aprenda Ownership, Borrowing e como o compilador do Rust garante segurança de memória sem garbage collector.
+                    </p>
+                    <div style="margin-top: 20px;">
+                        <a href="https://www.youtube.com/watch?v=5CPZ49VvC7o" target="_blank" class="btn btn--play">Assistir Trailer</a>
+                        <button class="btn btn--info">+ Minha Lista</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 1 -->
+            <div class="episodes">
+                <h3 class="episodes__title">Parte 1: O Primeiro Contato: Segurança e Performance</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">1</span>
+                        <img src="../images/posters/rust.png" alt="Ecossistema" class="thumb">
+                        <div class="content">
+                            <h5>1. Introdução ao Ecossistema</h5>
+                            <p>Instalação com rustup e o uso do Cargo (gerenciador de pacotes e build).</p>
+                        </div>
+                        <span class="duration">20 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">2</span>
+                        <img src="../images/posters/rust.png" alt="Variáveis" class="thumb" style="filter: hue-rotate(45deg);">
+                        <div class="content">
+                            <h5>2. Variáveis e Mutabilidade</h5>
+                            <p>O conceito de imutabilidade por padrão (let vs let mut).</p>
+                        </div>
+                        <span class="duration">15 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">3</span>
+                        <img src="../images/posters/rust.png" alt="Tipos" class="thumb" style="filter: hue-rotate(90deg);">
+                        <div class="content">
+                            <h5>3. Tipos de Dados Primitivos</h5>
+                            <p>Escalares (inteiros, floats, bool, char) e Compostos (tuplas e arrays).</p>
+                        </div>
+                        <span class="duration">25 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">4</span>
+                        <img src="../images/posters/rust.png" alt="Funções" class="thumb" style="filter: hue-rotate(135deg);">
+                        <div class="content">
+                            <h5>4. Funções e Declarações</h5>
+                            <p>Parâmetros, tipos de retorno e a diferença entre statements e expressions.</p>
+                        </div>
+                        <span class="duration">30 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 2 -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 2: A Alma do Rust: Ownership (Propriedade)</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">5</span>
+                        <img src="../images/posters/rust.png" alt="Ownership" class="thumb" style="filter: saturate(2);">
+                        <div class="content">
+                            <h5>5. Ownership: Regras de Ouro</h5>
+                            <p>As três regras fundamentais da posse de dados em Rust.</p>
+                        </div>
+                        <span class="duration">40 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">6</span>
+                        <img src="../images/posters/rust.png" alt="Move" class="thumb" style="filter: contrast(1.5);">
+                        <div class="content">
+                            <h5>6. Move, Copy e Clone</h5>
+                            <p>O que acontece na memória ao transferir a posse de uma variável.</p>
+                        </div>
+                        <span class="duration">35 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">7</span>
+                        <img src="../images/posters/rust.png" alt="References" class="thumb" style="filter: invert(0.2);">
+                        <div class="content">
+                            <h5>7. References e Borrowing</h5>
+                            <p>O uso de & e &mut. Regras de referências mutáveis vs imutáveis.</p>
+                        </div>
+                        <span class="duration">45 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">8</span>
+                        <img src="../images/posters/rust.png" alt="Slices" class="thumb" style="filter:sepia(0.5);">
+                        <div class="content">
+                            <h5>8. Slices</h5>
+                            <p>Referências a partes de uma coleção (especialmente &str vs String).</p>
+                        </div>
+                        <span class="duration">25 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 3 -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 3: Lógica e Estruturas de Dados</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">9</span>
+                        <img src="../images/algorithms.png" alt="Fluxo" class="thumb">
+                        <div class="content">
+                            <h5>9. Controle de Fluxo</h5>
+                            <p>Uso de if, else e os laços loop, while e for.</p>
+                        </div>
+                        <span class="duration">20 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">10</span>
+                        <img src="../images/posters/data-structures.png" alt="Structs" class="thumb">
+                        <div class="content">
+                            <h5>10. Structs (Estruturas)</h5>
+                            <p>Structs clássicas, Tuple Structs e Unit-like Structs.</p>
+                        </div>
+                        <span class="duration">35 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">11</span>
+                        <img src="../images/posters/data-structures.png" alt="Enums" class="thumb" style="filter: hue-rotate(90deg);">
+                        <div class="content">
+                            <h5>11. Enums e Pattern Matching</h5>
+                            <p>O poder do match e do if let para controle de estado.</p>
+                        </div>
+                        <span class="duration">40 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">12</span>
+                        <img src="../images/posters/data-structures.png" alt="Coleções" class="thumb" style="filter: sepia(1);">
+                        <div class="content">
+                            <h5>12. Coleções Padrão</h5>
+                            <p>Uso prático de Vector<T>, String e HashMap.</p>
+                        </div>
+                        <span class="duration">30 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 4 -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 4: Tratamento de Erros (Sem "Exceptions")</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">13</span>
+                        <img src="../images/posters/rust.png" alt="Result" class="thumb" style="filter: brightness(1.2);">
+                        <div class="content">
+                            <h5>13. Result e Option</h5>
+                            <p>Lidando com valores nulos ou falhas sem exceções.</p>
+                        </div>
+                        <span class="duration">35 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">14</span>
+                        <img src="../images/posters/rust.png" alt="Operador" class="thumb" style="filter: grayscale(1);">
+                        <div class="content">
+                            <h5>14. O Operador ?</h5>
+                            <p>Propagação de erros de forma elegante e segura.</p>
+                        </div>
+                        <span class="duration">20 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">15</span>
+                        <img src="../images/posters/rust.png" alt="Panic" class="thumb" style="filter: hue-rotate(200deg);">
+                        <div class="content">
+                            <h5>15. Panic! vs Erros Recuperáveis</h5>
+                            <p>Quando deixar o programa quebrar e quando tratar o erro.</p>
+                        </div>
+                        <span class="duration">25 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 5 -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 5: Abstração e Reuso: Traits e Generics</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">16</span>
+                        <img src="../images/system/hero-background.png" alt="Generics" class="thumb">
+                        <div class="content">
+                            <h5>16. Generics</h5>
+                            <p>Criando funções e structs que funcionam com qualquer tipo <T>.</p>
+                        </div>
+                        <span class="duration">40 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">17</span>
+                        <img src="../images/system/hero-background.png" alt="Traits" class="thumb" style="filter: hue-rotate(280deg);">
+                        <div class="content">
+                            <h5>17. Traits</h5>
+                            <p>Definindo comportamentos compartilhados entre tipos.</p>
+                        </div>
+                        <span class="duration">45 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">18</span>
+                        <img src="../images/system/hero-background.png" alt="Bounds" class="thumb" style="filter: contrast(1.5);">
+                        <div class="content">
+                            <h5>18. Trait Bounds</h5>
+                            <p>Restringindo tipos genéricos para garantir capacidades.</p>
+                        </div>
+                        <span class="duration">30 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">19</span>
+                        <img src="../images/system/hero-background.png" alt="Lifetimes" class="thumb" style="filter: saturate(3);">
+                        <div class="content">
+                            <h5>19. Lifetimes (Introdução)</h5>
+                            <p>Garantindo a validade das referências no tempo.</p>
+                        </div>
+                        <span class="duration">50 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PARTE 6 -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 6: Organização e Modernidade</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">20</span>
+                        <img src="../images/posters/rust.png" alt="Modulos" class="thumb" style="filter: hue-rotate(45deg);">
+                        <div class="content">
+                            <h5>20. Módulos e Crates</h5>
+                            <p>Organizando o código em múltiplos arquivos e pacotes externos.</p>
+                        </div>
+                        <span class="duration">35 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">21</span>
+                        <img src="../images/posters/rust.png" alt="Testes" class="thumb" style="filter: brightness(0.8);">
+                        <div class="content">
+                            <h5>21. Testes Automatizados</h5>
+                            <p>Suporte nativo para testes unitários e de integração.</p>
+                        </div>
+                        <span class="duration">30 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">22</span>
+                        <img src="../images/posters/rust.png" alt="Smart" class="thumb" style="filter: contrast(1.2);">
+                        <div class="content">
+                            <h5>22. Smart Pointers (Avançado)</h5>
+                            <p>Visão geral sobre Box<T>, Rc<T> e Arc<T>.</p>
+                        </div>
+                        <span class="duration">1h</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 CS+ Learning. Trilha de Especialização em Rust.</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
+
+
+

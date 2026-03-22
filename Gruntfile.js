@@ -10,7 +10,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'dist/css/main.css': 'src/styles/main.scss'
+                    'dist/css/main.css': 'dev/src/styles/main.scss'
                 }
             }
         },
@@ -18,7 +18,7 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 files: {
-                    'dist/js/main.js': ['src/scripts/main.js']
+                    'dist/js/main.js': ['dev/src/scripts/main.js']
                 }
             }
         },
@@ -40,29 +40,39 @@ module.exports = function(grunt) {
                 livereload: true
             },
             sass: {
-                files: ['src/styles/*.scss'],
+                files: ['dev/src/styles/*.scss'],
                 tasks: ['sass']
             },
             scripts: {
-                files: ['src/scripts/*.js'],
+                files: ['dev/src/scripts/*.js'],
                 tasks: ['uglify']
             },
             html: {
-                files: ['src/*.html'],
+                files: ['dev/*.html', 'dev/pages/*.html'],
                 tasks: ['copy:html']
             }
         },
 
         copy: {
             html: {
-                expand: true,
-                cwd: 'src/',
-                src: '*.html',
-                dest: 'dist/',
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'dev/',
+                        src: 'index.html',
+                        dest: 'dist/',
+                    },
+                    {
+                        expand: true,
+                        cwd: 'dev/pages/',
+                        src: '*.html',
+                        dest: 'dist/pages/',
+                    }
+                ]
             },
             images: {
                 expand: true,
-                cwd: 'src/',
+                cwd: 'dev/src/',
                 src: 'images/**',
                 dest: 'dist/',
             }
