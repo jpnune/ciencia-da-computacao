@@ -5,6 +5,10 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
         
         sass: {
+            options: {
+                implementation: require('sass'),
+                sourceMap: false
+            },
             dist: {
                 options: {
                     style: 'compressed'
@@ -79,7 +83,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
