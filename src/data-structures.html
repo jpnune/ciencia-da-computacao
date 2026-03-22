@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Série: Estruturas de Dados | CS+</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header class="header header--dark" id="header">
+        <div class="header__container">
+            <a href="index.html" style="text-decoration: none;"><h1 class="header__logo">CS<span>+</span></h1></a>
+            <nav class="header__nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index.html#series">Disciplinas</a></li>
+                    <li><a href="index.html#popular">Populares</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <section class="series-view" id="data-structures">
+            <div class="series-view__header">
+                <img src="images/data-structures.png" alt="Data Structures Poster" class="series-view__poster">
+                <div class="series-view__info">
+                    <div class="meta">99% Relevante <span>2026</span> <span>3 Temporadas</span> <span>4K Ultra HD</span></div>
+                    <h2>Estruturas de Dados</h2>
+                    <p class="synopsis">
+                        Do linear ao relacional: a jornada definitiva para entender como o software organiza a realidade. Construa uma base sólida com sequências antes de explorar a complexidade das árvores e a conectividade infinita dos grafos.
+                    </p>
+                    <div style="margin-top: 20px;">
+                        <a href="https://www.youtube.com/watch?v=RBSGKlAvoiM" target="_blank" class="btn btn--play">Assistir Trailer</a>
+                        <button class="btn btn--info">+ Minha Lista</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEMPORADA 1: LINEARES -->
+            <div class="episodes">
+                <h3 class="episodes__title">Parte 1: Estruturas Lineares (A Base)</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">1</span>
+                        <img src="images/ep_array.png" alt="Array" class="thumb">
+                        <div class="content">
+                            <h5>1. Array (Vetor)</h5>
+                            <p>A estrutura mais fundamental. É a base para quase todas as outras. Entenda a alocação sequencial.</p>
+                        </div>
+                        <span class="duration">45 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">2</span>
+                        <img src="images/ep_linked_list.png" alt="Linked List" class="thumb">
+                        <div class="content">
+                            <h5>2. Linked List (Lista Encadeada)</h5>
+                            <p>Introduz o conceito de ponteiros e alocação dinâmica, resolvendo limitações dos arrays.</p>
+                        </div>
+                        <span class="duration">52 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">3</span>
+                        <img src="images/ep_stack.png" alt="Stack" class="thumb">
+                        <div class="content">
+                            <h5>3. Stack (Pilha)</h5>
+                            <p>Lógica LIFO (Last In, First Out). Essencial para entender recursão e chamadas de função.</p>
+                        </div>
+                        <span class="duration">48 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">4</span>
+                        <img src="images/ep_stack.png" alt="Queue" class="thumb" style="filter: hue-rotate(180deg);">
+                        <div class="content">
+                            <h5>4. Queue (Fila)</h5>
+                            <p>Lógica FIFO (First In, First Out). Escalonamento de processos e ordem de chegada.</p>
+                        </div>
+                        <span class="duration">40 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">5</span>
+                        <img src="images/ep_hash.png" alt="Hash Table" class="thumb">
+                        <div class="content">
+                            <h5>5. Hash Table</h5>
+                            <p>Mapeamento chave-valor. O segredo da busca em tempo constante O(1).</p>
+                        </div>
+                        <span class="duration">50 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEMPORADA 2: HIERÁRQUICAS -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 2: Estruturas Hierárquicas (Árvores)</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">6</span>
+                        <img src="images/ep_tree.png" alt="Tree" class="thumb">
+                        <div class="content">
+                            <h5>6. Tree (Árvore)</h5>
+                            <p>O conceito geral de hierarquia: nós pais e nós filhos em sistemas complexos.</p>
+                        </div>
+                        <span class="duration">55 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">7</span>
+                        <img src="images/ep_binary.png" alt="Binary Tree" class="thumb">
+                        <div class="content">
+                            <h5>7. Binary Tree (Árvore Binária)</h5>
+                            <p>Especialização: cada nó tem no máximo 2 filhos. A base para algoritmos de busca.</p>
+                        </div>
+                        <span class="duration">42 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">12</span>
+                        <img src="images/ep_tree.png" alt="Unbalanced Tree" class="thumb" style="filter: grayscale(1) contrast(1.2);">
+                        <div class="content">
+                            <h5>12. Unbalanced Tree</h5>
+                            <p>O perigo da árvore torta: quando a eficiência se torna a mesma de uma lista ligada.</p>
+                        </div>
+                        <span class="duration">30 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">8</span>
+                        <img src="images/ep_binary.png" alt="BST" class="thumb" style="filter: hue-rotate(90deg);">
+                        <div class="content">
+                            <h5>8. Binary Search Tree (BST)</h5>
+                            <p>Regras de ordenação: menores à esquerda, maiores à direita. Buscas ultra-rápidas.</p>
+                        </div>
+                        <span class="duration">1h</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">9/10</span>
+                        <img src="images/ep_advanced.png" alt="Full/Complete" class="thumb">
+                        <div class="content">
+                            <h5>9 & 10. Full & Complete Binary Trees</h5>
+                            <p>Definições cruciais sobre preenchimento de nós, essenciais para entender Heaps.</p>
+                        </div>
+                        <span class="duration">45 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">11</span>
+                        <img src="images/ep_tree.png" alt="Balanced Tree" class="thumb" style="filter: saturate(2);">
+                        <div class="content">
+                            <h5>11. Balanced Tree (Árvore Balanceada)</h5>
+                            <p>Estratégias AVL e Red-Black para garantir que a árvore nunca perca performance.</p>
+                        </div>
+                        <span class="duration">55 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">13</span>
+                        <img src="images/ep_advanced.png" alt="Heap" class="thumb" style="filter: brightness(1.3) sepia(0.3);">
+                        <div class="content">
+                            <h5>13. Heap</h5>
+                            <p>Árvore binária especial para filas de prioridade e algoritmos de ordenação eficientes.</p>
+                        </div>
+                        <span class="duration">48 min</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TEMPORADA 3: RELACIONAIS -->
+            <div class="episodes" style="margin-top: 60px;">
+                <h3 class="episodes__title">Parte 3: Estruturas Relacionais (Grafos)</h3>
+                <div class="episodes__list">
+                    <div class="episodes__item">
+                        <span class="number">14</span>
+                        <img src="images/hero.png" alt="Graph" class="thumb" style="filter: contrast(1.2) hue-rotate(280deg);">
+                        <div class="content">
+                            <h5>14. Graph (Grafo)</h5>
+                            <p>A generalização suprema: nós (vértices) conectados por arestas em qualquer direção.</p>
+                        </div>
+                        <span class="duration">1h 10 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">15/16</span>
+                        <img src="images/hero.png" alt="Directed/Undirected" class="thumb" style="filter: hue-rotate(280deg) brightness(0.8);">
+                        <div class="content">
+                            <h5>15 & 16. Directed & Undirected Graphs</h5>
+                            <p>Conexões de mão única vs mão dupla. Entenda as relações em redes sociais e mapas.</p>
+                        </div>
+                        <span class="duration">50 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">18/19</span>
+                        <img src="images/ep_array.png" alt="Adj List/Matrix" class="thumb" style="filter: invert(1) hue-rotate(180deg) opacity(0.7);">
+                        <div class="content">
+                            <h5>18 & 19. Adjacent List & Matrix</h5>
+                            <p>Representação em memória: como desenhar grafos usando as estruturas que você já aprendeu.</p>
+                        </div>
+                        <span class="duration">55 min</span>
+                    </div>
+                    <div class="episodes__item">
+                        <span class="number">17</span>
+                        <img src="images/ep_tree.png" alt="Spanning Tree" class="thumb" style="filter: hue-rotate(50deg) brightness(1.5);">
+                        <div class="content">
+                            <h5>17. Spanning Tree (Árvore Geradora)</h5>
+                            <p>O elo final: conectando todos os vértices sem ciclos. Onde árvores e grafos se tornam um só.</p>
+                        </div>
+                        <span class="duration">45 min</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 CS+ Learning. Baseado no roadmap pedagógico sugerido.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
