@@ -5,9 +5,9 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx grunt",
-    "dev": "npx grunt dev",
-    "start": "npx grunt connect:server"
+    "build": "node node_modules/grunt/bin/grunt",
+    "dev": "node node_modules/grunt/bin/grunt dev",
+    "start": "node node_modules/grunt/bin/grunt connect:server"
   },
   "repository": {
     "type": "git",
