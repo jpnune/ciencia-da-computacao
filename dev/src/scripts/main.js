@@ -7,12 +7,3 @@ window.addEventListener('scroll', function() {
         header.classList.remove('header--dark');
     }
 });
-
-// Row scroll integration (future expansion for arrows)
-const posters = document.querySelectorAll('.row__posters');
-posters.forEach(row => {
-    row.addEventListener('wheel', (evt) => {
-        evt.preventDefault();
-        row.scrollLeft += evt.deltaY;
-    });
-});

@@ -1,1 +1,1 @@
-window.addEventListener("scroll",function(){var e=document.getElementById("header");100<window.scrollY?e.classList.add("header--dark"):e.classList.remove("header--dark")});let posters=document.querySelectorAll(".row__posters");posters.forEach(r=>{r.addEventListener("wheel",e=>{e.preventDefault(),r.scrollLeft+=e.deltaY})});
+window.addEventListener("scroll",function(){var e=document.getElementById("header");100<window.scrollY?e.classList.add("header--dark"):e.classList.remove("header--dark")});
