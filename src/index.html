@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS+ | Streaming de Conhecimento</title>
-    <!-- Links atualizados para a pasta de distribuição (dist) -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="images/hero.png" type="image/x-icon">
 </head>
-
 <body>
     <header class="header" id="header">
         <div class="header__container">
@@ -19,176 +16,81 @@
                     <li><a href="#">Início</a></li>
                     <li><a href="#series">Disciplinas</a></li>
                     <li><a href="#popular">Populares</a></li>
-                    <li><a href="#my-list">Minha Lista</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero"
-            style="background-image: linear-gradient(to top, rgba(20, 20, 20, 1), rgba(20, 20, 20, 0)), url('images/hero.png');">
+        <section class="hero" style="background-image: linear-gradient(to top, rgba(20, 20, 20, 1), rgba(20, 20, 20, 0)), url('images/hero.png');">
             <div class="hero__content">
-                <h2 class="hero__subtitle">Roadmap para o Futuro</h2>
-                <h1 class="hero__title">Ciência da Computação</h1>
-                <p class="hero__description">
-                    Domine os fundamentos, algoritmos e as tecnologias que movem o mundo digital. Do zero ao avançado,
-                    sua jornada de aprendizado começa aqui.
-                </p>
+                <h2 class="hero__subtitle">Roadmap Completo</h2>
+                <h1 class="hero__title">Mestre em Ciência da Computação</h1>
+                <p class="hero__description">A maior biblioteca de streaming para engenheiros de software. Domine do hardware ao Cloud em 10 temporadas épicas.</p>
                 <div class="hero__buttons">
-                    <a href="https://www.youtube.com/watch?v=8mAITcNt70k" target="_blank" class="btn btn--play">Assistir
-                        Agora</a>
-                    <a href="#" class="btn btn--info">Mais Informações</a>
+                    <a href="how-computers-work.html" class="btn btn--play">Começar do Início</a>
+                    <a href="#series" class="btn btn--info">Navegar Catálogo</a>
                 </div>
             </div>
         </section>
 
         <section class="catalog">
+            <!-- LINHA 1: FUNDAMENTOS -->
             <div class="row" id="series">
-                <h3 class="row__title">Em Alta: Fundamentos</h3>
+                <h3 class="row__title">Fundamentos e Máquina</h3>
                 <div class="row__posters">
-                    <div class="poster">
-                        <img src="images/hero.png" alt="CS Intro" class="poster__img">
-                        <div class="poster__overlay">
-                            <h4>Intro CS</h4>
-                            <p>O quadro geral da computação.</p>
-                            <a href="https://www.youtube.com/watch?v=8mAITcNt70k" target="_blank">Acessar Aula</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <h3 class="row__title">Escolha sua Linguagem</h3>
-                <div class="row__posters">
-                    <a href="python-series.html" class="poster-link">
+                    <a href="how-computers-work.html" class="poster-link">
                         <div class="poster">
-                            <img src="images/python.png" alt="Python" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>Python Masterclass</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
+                            <img src="images/computer_foundation_poster_1774189023664.png" class="poster__img">
+                            <div class="poster__overlay"><h4>How Computers Work</h4><p>Temporada 1</p></div>
                         </div>
                     </a>
-                    <a href="rust-series.html" class="poster-link">
+                    <a href="os-series.html" class="poster-link">
                         <div class="poster">
-                            <img src="images/rust.png" alt="Rust" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>Rust Systems</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="go-series.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/go.png" alt="Go" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>Go Backend</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="csharp-series.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/csharp.png" alt="C#" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>C# Masterclass</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="cpp-series.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/cpp.png" alt="C++" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>C++ Profissional</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="c-series.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/c.png" alt="C" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>C: A Fundação</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
-                    <a href="java-series.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/java.png" alt="Java" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>Java Master</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
+                            <img src="images/operating_systems_poster_1774189199380.png" class="poster__img">
+                            <div class="poster__overlay"><h4>Sistemas Operacionais</h4><p>Processos e Kernels</p></div>
                         </div>
                     </a>
                 </div>
             </div>
 
+            <!-- LINHA 2: LINGUAGENS -->
             <div class="row">
-                <h3 class="row__title">Infraestrutura e Dados</h3>
+                <h3 class="row__title">Escolha sua Linguagem (Ferramentas de Trabalho)</h3>
                 <div class="row__posters">
-                    <div class="poster">
-                        <img src="images/hero.png" alt="Networking" class="poster__img"
-                            style="filter: hue-rotate(90deg);">
-                        <div class="poster__overlay">
-                            <h4>Redes de Computadores</h4>
-                            <p>Protocolos e Comunicação.</p>
-                            <a href="https://www.youtube.com/watch?v=IPvYjXWwISY" target="_blank">Acessar Aula</a>
-                        </div>
-                    </div>
-                    <a href="data-structures.html" class="poster-link">
-                        <div class="poster">
-                            <img src="images/data-structures.png" alt="Data Structures" class="poster__img">
-                            <div class="poster__overlay">
-                                <h4>Estruturas de Dados</h4>
-                                <p>Série Original CS+.</p>
-                                <span class="btn-fake">Ver Episódios</span>
-                            </div>
-                        </div>
-                    </a>
+                    <a href="java-series.html" class="poster-link"><div class="poster"><img src="images/java.png" class="poster__img"><div class="poster__overlay"><h4>Java Master</h4></div></div></a>
+                    <a href="python-series.html" class="poster-link"><div class="poster"><img src="images/python.png" class="poster__img"><div class="poster__overlay"><h4>Python Masterclass</h4></div></div></a>
+                    <a href="rust-series.html" class="poster-link"><div class="poster"><img src="images/rust.png" class="poster__img"><div class="poster__overlay"><h4>Rust Systems</h4></div></div></a>
+                    <a href="go-series.html" class="poster-link"><div class="poster"><img src="images/go.png" class="poster__img"><div class="poster__overlay"><h4>Go Backend</h4></div></div></a>
+                    <a href="cpp-series.html" class="poster-link"><div class="poster"><img src="images/cpp.png" class="poster__img"><div class="poster__overlay"><h4>C++ Profissional</h4></div></div></a>
                 </div>
             </div>
 
+            <!-- LINHA 3: DADOS E ALGORITMOS -->
             <div class="row">
-                <h3 class="row__title">Arquitetura e Performance</h3>
+                <h3 class="row__title">A Ciência da Eficiência</h3>
                 <div class="row__posters">
-                    <div class="poster">
-                        <img src="images/algorithms.png" alt="System Design" class="poster__img"
-                            style="filter: saturate(1.5);">
-                        <div class="poster__overlay">
-                            <h4>System Design</h4>
-                            <p>Escalabilidade e Cloud.</p>
-                            <a href="https://www.youtube.com/watch?v=m8Icp_Cid5o" target="_blank">Acessar Aula</a>
-                        </div>
-                    </div>
-                    <div class="poster">
-                        <img src="images/python.png" alt="Backend" class="poster__img" style="filter: brightness(0.8);">
-                        <div class="poster__overlay">
-                            <h4>Backend Mastery</h4>
-                            <p>Arquitetura de Servidores.</p>
-                            <a href="https://www.youtube.com/watch?v=XBu54nfyg2E" target="_blank">Acessar Aula</a>
-                        </div>
-                    </div>
+                    <a href="data-structures.html" class="poster-link"><div class="poster"><img src="images/data-structures.png" class="poster__img"><div class="poster__overlay"><h4>Estruturas de Dados</h4></div></div></a>
+                    <a href="common-algorithms.html" class="poster-link"><div class="poster"><img src="images/algorithms_master_poster_1774189038716.png" class="poster__img"><div class="poster__overlay"><h4>Algoritmos Clássicos</h4></div></div></a>
+                    <a href="graph-algorithms.html" class="poster-link"><div class="poster"><img src="images/graphs_logic_poster_1774189114354.png" class="poster__img"><div class="poster__overlay"><h4>Grafos e Lógica</h4></div></div></a>
+                    <a href="advanced-cs.html" class="poster-link"><div class="poster"><img src="images/theory_of_computation_poster_1774189214924.png" class="poster__img"><div class="poster__overlay"><h4>Advanced CS</h4></div></div></a>
+                </div>
+            </div>
+
+            <!-- LINHA 4: ENGENHARIA E INFRA -->
+            <div class="row">
+                <h3 class="row__title">Construindo e Escavando</h3>
+                <div class="row__posters">
+                    <a href="system-design.html" class="poster-link"><div class="poster"><img src="images/system_architecture_poster_1774189184473.png" class="poster__img"><div class="poster__overlay"><h4>System Design</h4></div></div></a>
+                    <a href="database-series.html" class="poster-link"><div class="poster"><img src="images/database_mastery_poster_1774189167885.png" class="poster__img"><div class="poster__overlay"><h4>Bancos de Dados</h4></div></div></a>
+                    <a href="networking-security.html" class="poster-link"><div class="poster"><img src="images/secure_networks_poster_1774189149668.png" class="poster__img"><div class="poster__overlay"><h4>Redes e Segurança</h4></div></div></a>
+                    <a href="design-patterns.html" class="poster-link"><div class="poster"><img src="images/software_design_poster_1774189132644.png" class="poster__img"><div class="poster__overlay"><h4>Design Patterns</h4></div></div></a>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
-        <p>&copy; 2026 CS+ Learning. Baseado no roadmap.sh e EBAC.</p>
-    </footer>
-
+    <footer class="footer"><p>&copy; 2026 CS+ Learning.</p></footer>
     <script src="js/main.js"></script>
 </body>
-
 </html>
