@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Série: C: A Fundação | CS+</title>
+    <title>Série: Linguagem C (The C Language) | CS+</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -23,245 +23,40 @@
     <main style="padding-top: 100px;">
         <section class="series-view" id="c-series">
             <div class="series-view__header">
-                <img src="images/c.png" alt="C Poster" class="series-view__poster">
+                <img src="images/c_language_poster_art_1774190537255.png" alt="C Language Poster" class="series-view__poster">
                 <div class="series-view__info">
-                    <div class="meta">100% Relevante <span>2026</span> <span>7 Partes</span> <span>4K Ultra HD</span></div>
-                    <h2>C: A Fundação (O Berço da Computação)</h2>
+                    <div class="meta">100% Relevante <span>2026</span> <span>4 Partes</span> <span>4K Cinematic</span></div>
+                    <h2>Linguagem C (The C Language)</h2>
                     <p class="synopsis">
-                        Mergulhe no baixo nível e descubra como o software interage diretamente com o hardware. Uma jornada essencial para quem deseja dominar a performance e entender o coração das máquinas.
+                        A "mãe" das linguagens modernas. Explore o poder do baixo nível, manipulação direta de memória e a fundação de quase todos os sistemas operacionais e compiladores.
                     </p>
                     <div style="margin-top: 20px;">
-                        <a href="https://www.youtube.com/watch?v=KJgsSFOSQv0" target="_blank" class="btn btn--play">Assistir Trailer</a>
+                        <button class="btn btn--play">Assistir Trailer</button>
                         <button class="btn btn--info">+ Minha Lista</button>
                     </div>
                 </div>
             </div>
 
-            <!-- PARTE 1: INTRODUÇÃO -->
             <div class="episodes">
-                <h3 class="episodes__title">Parte 1: O Berço da Computação (Introdução e Sintaxe)</h3>
+                <h3 class="episodes__title">Parte 1: Acesso ao Hardware</h3>
                 <div class="episodes__list">
                     <div class="episodes__item">
                         <span class="number">1</span>
-                        <img src="images/hero.png" alt="Compilação" class="thumb" style="filter: grayscale(1);">
+                        <div class="thumb" style="background: #1a1a1a; display: flex; align-items: center; justify-content: center; color: #00ff00; font-family: monospace;">#include</div>
                         <div class="content">
-                            <h5>1. O que é C e Compilação</h5>
-                            <p>Como funciona o GCC/Clang e a estrutura básica do código em C.</p>
+                            <h5>1. Introdução e Compilação</h5>
+                            <p>O fluxo do C: Pré-processador, Compilador, Assembler e Linker.</p>
                         </div>
-                        <span class="duration">25 min</span>
+                        <span class="duration">35 min</span>
                     </div>
                     <div class="episodes__item">
                         <span class="number">2</span>
-                        <img src="images/hero.png" alt="Tipos" class="thumb" style="filter: brightness(0.7);">
+                        <div class="thumb" style="background: #1a1a1a; display: flex; align-items: center; justify-content: center; color: #00ff00; font-family: monospace;">*ptr</div>
                         <div class="content">
-                            <h5>2. Variáveis e Tipos Primitivos</h5>
-                            <p>int, float, double e char. Entenda o tamanho em bytes de cada um.</p>
-                        </div>
-                        <span class="duration">30 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">3</span>
-                        <img src="images/hero.png" alt="E/S" class="thumb" style="filter: contrast(1.2);">
-                        <div class="content">
-                            <h5>3. Entrada e Saída Formatada</h5>
-                            <p>O uso rigoroso de printf e scanf com modificadores de tipo.</p>
-                        </div>
-                        <span class="duration">22 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">4</span>
-                        <img src="images/hero.png" alt="Operadores" class="thumb" style="filter: saturate(0.5);">
-                        <div class="content">
-                            <h5>4. Operadores Aritméticos</h5>
-                            <p>As sutilezas da divisão inteira e operadores de atribuição em C.</p>
-                        </div>
-                        <span class="duration">20 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 2: DECISÃO -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 2: Tomada de Decisão e Repetição</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">5</span>
-                        <img src="images/algorithms.png" alt="Condicionais" class="thumb" style="filter: hue-rotate(280deg);">
-                        <div class="content">
-                            <h5>5. Estruturas Condicionais</h5>
-                            <p>if, else e o seletor switch, fundamental na organização de fluxos em C.</p>
-                        </div>
-                        <span class="duration">35 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">6</span>
-                        <img src="images/algorithms.png" alt="Loops" class="thumb" style="filter: invert(1);">
-                        <div class="content">
-                            <h5>6. Laços de Repetição</h5>
-                            <p>Dominando while, for e o clássico do-while garantido em C.</p>
-                        </div>
-                        <span class="duration">40 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 3: VETORES E STRINGS -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 3: Vetores e a Verdade sobre Strings</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">7</span>
-                        <img src="images/data-structures.png" alt="Arrays" class="thumb">
-                        <div class="content">
-                            <h5>7. Arrays (Vetores)</h5>
-                            <p>Declaração, tamanhos fixos e o acesso direto via índice.</p>
-                        </div>
-                        <span class="duration">30 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">8</span>
-                        <img src="images/data-structures.png" alt="Strings" class="thumb" style="filter: hue-rotate(90deg);">
-                        <div class="content">
-                            <h5>8. Strings em C</h5>
-                            <p>O conceito de array de char e a importância do terminador nulo (\0).</p>
-                        </div>
-                        <span class="duration">35 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">9</span>
-                        <img src="images/data-structures.png" alt="Manipulação" class="thumb" style="filter: sepia(1);">
-                        <div class="content">
-                            <h5>9. Manipulação de Strings</h5>
-                            <p>Explorando a biblioteca string.h: strlen, strcpy e strcmp.</p>
-                        </div>
-                        <span class="duration">28 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 4: FUNÇÕES -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 4: Funções e Escopo</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">10</span>
-                        <img src="images/hero.png" alt="Funções" class="thumb" style="filter: hue-rotate(180deg);">
-                        <div class="content">
-                            <h5>10. Criação de Funções</h5>
-                            <p>Protótipos de funções, parâmetros e tipos de retorno no padrão ANSI C.</p>
+                            <h5>2. Ponteiros e Endereços</h5>
+                            <p>O conceito mais poderoso do C: manipulando a memória diretamente.</p>
                         </div>
                         <span class="duration">45 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">11</span>
-                        <img src="images/hero.png" alt="Passagem" class="thumb" style="filter: contrast(1.5);">
-                        <div class="content">
-                            <h5>11. Passagem por Valor vs. Referência</h5>
-                            <p>Conceitos fundamentais que preparam o terreno para os ponteiros.</p>
-                        </div>
-                        <span class="duration">30 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 5: PONTEIROS -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 5: O Coração do C (Ponteiros e Memória)</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">12</span>
-                        <img src="images/hero.png" alt="Memória" class="thumb" style="filter: brightness(1.5);">
-                        <div class="content">
-                            <h5>12. Endereços de Memória</h5>
-                            <p>O operador & e como o computador organiza os dados fisicamente.</p>
-                        </div>
-                        <span class="duration">40 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">13</span>
-                        <img src="images/hero.png" alt="Ponteiros" class="thumb" style="filter: hue-rotate(45deg);">
-                        <div class="content">
-                            <h5>13. Ponteiros</h5>
-                            <p>O que são, declaração e o uso do operador de desreferenciação *.</p>
-                        </div>
-                        <span class="duration">55 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">14</span>
-                        <img src="images/hero.png" alt="Aritmética" class="thumb" style="filter: hue-rotate(135deg);">
-                        <div class="content">
-                            <h5>14. Aritmética de Ponteiros</h5>
-                            <p>Navegando em arrays usando endereços de memória de forma eficiente.</p>
-                        </div>
-                        <span class="duration">32 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">15</span>
-                        <img src="images/hero.png" alt="Alocação" class="thumb" style="filter: saturate(3);">
-                        <div class="content">
-                            <h5>15. Alocação Dinâmica</h5>
-                            <p>malloc, calloc e free: gerenciando memória manualmente com responsabilidade.</p>
-                        </div>
-                        <span class="duration">1h 10 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 6: ORGANIZAÇÃO -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 6: Organização de Dados Complexos</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">16</span>
-                        <img src="images/data-structures.png" alt="Structs" class="thumb" style="filter: contrast(1.2);">
-                        <div class="content">
-                            <h5>16. Structs (Estruturas)</h5>
-                            <p>Criando seus próprios tipos de dados compostos para modelar entidades.</p>
-                        </div>
-                        <span class="duration">50 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">17</span>
-                        <img src="images/data-structures.png" alt="Typedef" class="thumb" style="filter: brightness(0.8);">
-                        <div class="content">
-                            <h5>17. Typedef</h5>
-                            <p>Simplificando a declaração de tipos complexos e melhorando a legibilidade.</p>
-                        </div>
-                        <span class="duration">15 min</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">18</span>
-                        <img src="images/data-structures.png" alt="Unions" class="thumb" style="filter: hue-rotate(180deg);">
-                        <div class="content">
-                            <h5>18. Unions e Enums</h5>
-                            <p>Organizando estados com Enums e economizando memória com Unions.</p>
-                        </div>
-                        <span class="duration">25 min</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PARTE 7: MUNDO EXTERNO -->
-            <div class="episodes" style="margin-top: 60px;">
-                <h3 class="episodes__title">Parte 7: O Mundo Externo</h3>
-                <div class="episodes__list">
-                    <div class="episodes__item">
-                        <span class="number">19</span>
-                        <img src="images/hero.png" alt="Arquivos" class="thumb" style="filter: sepia(0.8);">
-                        <div class="content">
-                            <h5>19. Manipulação de Arquivos</h5>
-                            <p>Persistência de dados: abrindo, lendo e escrevendo em arquivos externos.</p>
-                        </div>
-                        <span class="duration">1h</span>
-                    </div>
-                    <div class="episodes__item">
-                        <span class="number">20</span>
-                        <img src="images/hero.png" alt="Pré-processador" class="thumb" style="filter: contrast(1.8);">
-                        <div class="content">
-                            <h5>20. Diretivas de Pré-processador</h5>
-                            <p>Macros, inclusões e o poder das diretivas #define e #include.</p>
-                        </div>
-                        <span class="duration">30 min</span>
                     </div>
                 </div>
             </div>
