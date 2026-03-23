@@ -1,6 +1,6 @@
 # CS+ | Plataforma de Streaming de Conhecimento
 
-## Link para pagina do projeto
+## Link Para Pagina do Projeto
 https://ciencia-da-computacao-pi.vercel.app/
 
 ## 🚀 Arquitetura Profissional (Dev/Dist)
