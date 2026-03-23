@@ -1,5 +1,8 @@
 # CS+ | Plataforma de Streaming de Conhecimento
 
+## Link para pagina do projeto
+https://ciencia-da-computacao-pi.vercel.app/
+
 ## 🚀 Arquitetura Profissional (Dev/Dist)
 O projeto utiliza o padrão de isolamento de código:
 - **`dev/`:** Diretório de desenvolvimento.
